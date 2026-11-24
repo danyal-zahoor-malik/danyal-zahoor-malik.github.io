@@ -169,3 +169,14 @@ form.cform{display:grid;gap:14px}
  .cta{padding:36px 26px}
  .f-grid{grid-template-columns:1fr}
 }
+.related{padding-top:20px}
+.rel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.rel-card{display:block;text-decoration:none;color:inherit;padding:22px}
+.rel-card h3{font-size:17px;margin-bottom:6px;color:var(--heading)}
+.rel-card p{font-size:14px;color:var(--muted,#5b6b69);margin:0}
+.rel-card:hover{border-color:#ecb33f;transform:translateY(-2px)}
+.rel-grid{grid-template-columns:repeat(4,1fr)}
+.rel-grid.rel-3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:900px){.rel-grid,.rel-grid.rel-3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.rel-grid,.rel-grid.rel-3{grid-template-columns:1fr}}
+section.related{padding-bottom:10px}
