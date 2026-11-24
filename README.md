@@ -1,4 +1,4 @@
-# Danyal Zahoor Malik — SEO Specialist, Islamabad
+# Danyal Zahoor Malik | SEO Specialist, Islamabad
 
 Personal portfolio website: **https://danyal-zahoor-malik.github.io/**
 
