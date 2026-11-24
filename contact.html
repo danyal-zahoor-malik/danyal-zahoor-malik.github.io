@@ -156,7 +156,7 @@
   <div class="card">
     <h3>Send a message</h3>
     <p style="margin-bottom:18px">Your message comes straight to my inbox. Prefer chat? Use the WhatsApp button.</p>
-    <form class="cform" id="cform" action="https://formsubmit.co/danyalmalikvq@gmail.com" method="POST">
+    <form class="cform" id="cform" action="https://formsubmit.co/bb9c9b459490e092bf3e805c41826489" method="POST">
       <input type="hidden" name="_subject" value="New SEO enquiry from website">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_captcha" value="false">
@@ -176,7 +176,7 @@
 function txt(){return 'Name: '+f.name.value+'\nEmail: '+f.email.value+'\nWebsite: '+f.website.value+'\nService: '+f.service.value+'\n\n'+f.message.value;}
 document.getElementById('cwa').onclick=function(){if(!f.name.value||!f.message.value){f.reportValidity();return;}window.open('https://wa.me/923185451086?text='+encodeURIComponent('SEO enquiry\n'+txt()),'_blank','noopener');};
 f.addEventListener('submit',function(ev){ev.preventDefault();b.disabled=true;b.textContent='Sending...';st.textContent='';
-fetch('https://formsubmit.co/ajax/danyalmalikvq@gmail.com',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(f)))})
+fetch('https://formsubmit.co/ajax/bb9c9b459490e092bf3e805c41826489',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(f)))})
 .then(function(r){return r.json();}).then(function(d){if(String(d.success)==='true'){st.style.color='#0f4c45';st.textContent='Thank you! Your message has been sent. I will reply within one working day.';f.reset();}else{throw 0;}})
 .catch(function(){st.style.color='#b42318';st.textContent='Could not send right now. Please use the WhatsApp button or email directly.';})
 .finally(function(){b.disabled=false;b.textContent='Send Message';});});})();
