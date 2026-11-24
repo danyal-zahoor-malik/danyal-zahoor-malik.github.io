@@ -142,7 +142,7 @@ form.cform{display:grid;gap:14px}
 /* footer */
 .site-footer{background:#0a2723;color:#a9bdb8;border-top:3px solid var(--accent);padding:60px 0 30px;font-size:15px}
 .f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
-.site-footer h4{color:#fff;font-size:15px;margin-bottom:14px}
+.site-footer .f-title{font-weight:700;color:#fff;font-size:15px;margin-bottom:14px}
 .site-footer ul{list-style:none}
 .site-footer li{margin-bottom:8px}
 .site-footer a{color:#a9bdb8}
