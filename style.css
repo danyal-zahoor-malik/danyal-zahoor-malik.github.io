@@ -13,7 +13,7 @@ img{max-width:100%;display:block}
 .site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:70px;gap:20px}
 .brand{display:flex;align-items:center;gap:12px;color:var(--heading)}
-.brand-mark{width:42px;height:42px;border-radius:12px;background:var(--deep);color:var(--accent);border:2px solid var(--accent);font-weight:800;display:grid;place-items:center;font-size:16px;letter-spacing:.5px}
+.brand-mark{width:42px;height:42px;border-radius:12px;background:var(--deep);color:var(--accent);border:2px solid var(--accent);font-weight:800;display:grid;place-items:center;font-size:13px;letter-spacing:.3px}
 .brand-name{font-weight:800;font-size:17px;line-height:1.1;display:block}
 .brand-role{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .nav-links{display:flex;align-items:center;gap:26px;list-style:none}
